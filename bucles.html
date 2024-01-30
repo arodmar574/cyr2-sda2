@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Bucles | Actividades para usar la placa Microbit </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="LBN" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-37"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Actividades para usar la placa Microbit</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">SdA 1. Práctica de tiro con microbit</a></li>
+   <li><a href="qu_pretendemos.html" class="no-ch">¿Qué pretendemos?</a></li>
+   <li><a href="conociendo_la_placa_de_microbit.html" class="no-ch">Conociendo la placa de Microbit</a></li>
+   <li class="current-page-parent"><a href="descubriendo_la_programacin_por_bloques.html" class="current-page-parent daddy">Descubriendo la programación por bloques</a>
+   <ul>
+      <li><a href="bloques_bsico.html" class="no-ch">Bloques básico</a></li>
+      <li><a href="bloques_operadores_de_comparacin_y_booleanos.html" class="no-ch">Bloques operadores de comparación y booleanos</a></li>
+      <li><a href="brillo_en_la_pantalla_led.html" class="no-ch">Brillo en la pantalla LED</a></li>
+      <li><a href="bloques_de_entrada.html" class="no-ch">Bloques de entrada</a></li>
+      <li><a href="creacin_de_variables.html" class="no-ch">Creación de variables</a></li>
+      <li id="active"><a href="bucles.html" class="active no-ch">Bucles</a></li>
+      <li><a href="operadores_de_comparacin_y_booleanos.html" class="no-ch">Operadores de comparación y booleanos</a></li>
+   </ul>
+   </li>
+   <li><a href="aplica_lo_aprendido.html" class="no-ch">Aplica lo aprendido</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="creacin_de_variables.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="operadores_de_comparacin_y_booleanos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Bucles</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_eng_aprenderaprender" id="id61">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_aprenderaprender.svg)"><h1 class="iDeviceTitle">Bucles</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta61_155_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="text-decoration: underline;"><strong>BLOQUE PARA</strong></span></p>
+<p>Estos bloques ejecutan el código asociado varias veces, según el número que se indique. Pueden usar una variable como contador o poner el número exacto de repeticiones.</p>
+<p>El bloque para usar una variable como contador tiene este aspecto:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC04.png" alt="" width="206" height="105" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Con estos bloques se puede repetir el código asociado tantas veces como se quiera. Se puede elegir el número de veces o usar una variable que lo controle.</p>
+<p>El aspecto del bloque que usa una variable para controlar las repeticiones es este:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC05.png" alt="" width="288" height="191" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Otra forma de este bloque es el bloque ‘repetir’ que permite indicar el número de veces que se quiere repetir el código. El bloque ‘repetir’ se ve así:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC06.png" alt="" width="170" height="106" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>En el siguiente ejemplo, al iniciar el dispositivo, se muestra tres veces el icono de un corazón que late.</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC07.png" alt="" width="277" height="395" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Este bloque es otro que usa el bucle for para repetir el código. En este caso, el código se repite para cada elemento de una lista que se le da.</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC08.png" alt="" width="280" height="106" style="display: block; margin-left: auto; margin-right: auto;"><span style="text-decoration: underline;"><strong></strong></span></p>
+<p><span style="text-decoration: underline;"><strong>BLOQUE MIENTRAS</strong></span></p>
+<p>Este bloque es un bucle que ejecuta su código mientras se cumpla una condición (True). El bloque se ve así:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC10.png" alt="" width="204" height="105" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>El bucle mientras tiene una condición que se debe cumplir para que se ejecute el código. La condición se comprueba antes de empezar el bucle. Si la condición es falsa desde el principio, el código del bucle no se hace nunca.</p>
+<p>El bloque solo nos deja poner la condición como True o False, lo que es muy limitado. Podemos hacer cosas más interesantes si usamos condiciones más complejas con los operadores. Estos bloques están en el menú ‘Lógica’ y funcionan igual que en Python -&gt; Introducción. No vamos a ver esto ahora, pero lo mencionamos para que lo sepas.</p>
+<p>Vamos a ver un ejemplo de cómo hacer una línea diagonal en los LEDs [(0,0) - (1,1) - (2,2) - (3,3) - (4,4) y (5,5)] de la pantalla. En la imagen se ve el programa completo, donde se ve que la condición es verdadera hasta que index llega a 4, así que se va a ir iluminando cada LED cada segundo. Esto solo pasa cuando se enciende el dispositivo, pero eso no importa para este ejemplo.</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC11.png" alt="" width="361" height="336" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p><b><u>BLOQUE CADA</u></b></p>
+<p>Este bloque ejecuta el código en segundo plano cada cierto tiempo que se puede indicar. El bucle espera ese tiempo antes de volver a ejecutar el código. Es parecido a un bucle “forever” (por siempre), pero con una pausa entre cada ejecución. El bloque es muy útil si, por ejemplo, queremos comprobar cada poco tiempo si pasa algo, como que se pulse una tecla, se oiga un sonido, etc.</p>
+<p>El bloque tiene este aspecto:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC12.png" alt="" width="146" height="96" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p><span style="text-decoration: underline;"><strong>BLOQUES SALIR Y CONTINUAR</strong></span></p>
+<p>Con este bloque se puede hacer que el código se repita en segundo plano cada vez que pasa un tiempo que se puede elegir. El bucle hace una pausa de ese tiempo antes de hacer el código otra vez. Es similar a un bucle “forever” (por siempre), pero con un intervalo de tiempo entre cada repetición. El bloque es muy útil si, por ejemplo, queremos ver cada cierto tiempo si ocurre algo, como que se presione una tecla, se escuche un sonido, etc.</p>
+<p>Así se ve el bloque:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC13.png" alt="" width="64" height="95" style="display: block; margin-left: auto; margin-right: auto;"></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="creacin_de_variables.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="operadores_de_comparacin_y_booleanos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

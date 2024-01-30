@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Creación de variables | Actividades para usar la placa Microbit </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="LBN" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<link rel="stylesheet" type="text/css" href="candado-activity.css" />
+<script type="text/javascript" src="candado-activity.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-36"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Actividades para usar la placa Microbit</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">SdA 1. Práctica de tiro con microbit</a></li>
+   <li><a href="qu_pretendemos.html" class="no-ch">¿Qué pretendemos?</a></li>
+   <li><a href="conociendo_la_placa_de_microbit.html" class="no-ch">Conociendo la placa de Microbit</a></li>
+   <li class="current-page-parent"><a href="descubriendo_la_programacin_por_bloques.html" class="current-page-parent daddy">Descubriendo la programación por bloques</a>
+   <ul>
+      <li><a href="bloques_bsico.html" class="no-ch">Bloques básico</a></li>
+      <li><a href="bloques_operadores_de_comparacin_y_booleanos.html" class="no-ch">Bloques operadores de comparación y booleanos</a></li>
+      <li><a href="brillo_en_la_pantalla_led.html" class="no-ch">Brillo en la pantalla LED</a></li>
+      <li><a href="bloques_de_entrada.html" class="no-ch">Bloques de entrada</a></li>
+      <li id="active"><a href="creacin_de_variables.html" class="active no-ch">Creación de variables</a></li>
+      <li><a href="bucles.html" class="no-ch">Bucles</a></li>
+      <li><a href="operadores_de_comparacin_y_booleanos.html" class="no-ch">Operadores de comparación y booleanos</a></li>
+   </ul>
+   </li>
+   <li><a href="aplica_lo_aprendido.html" class="no-ch">Aplica lo aprendido</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="bloques_de_entrada.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bucles.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Creación de variables</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_eng_aprenderaprender" id="id60">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_aprenderaprender.svg)"><h1 class="iDeviceTitle">Creación de variables</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta60_154_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Las variables son importantes para usar bucles, y por eso vamos a ver cómo se manejan en MakeCode. Las variables son espacios en la memoria donde el programa guarda valores. Podemos ponerles un nombre como “temperatura”, “velocidad”, “estado”, etc. para usarlos más fácilmente.</p>
+<p>El menú ‘Variables’ tiene este aspecto cuando lo abrimos por primera vez y no hay ningún bloque en el área de programa:</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC01.png" alt="" width="588" height="322" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Vamos a ver cómo se hace para crear una variable, cambiarle el nombre, borrarla y otras cosas que podemos hacer con ellas. En la siguiente animación se muestra el proceso de crear y nombrar una variable. Al pulsar el botón se abre una ventana donde nos pide el nombre, que escribimos siguiendo las reglas establecidas, y al darle a ‘Aceptar’ nos aparecen tres bloques, dos para usar la variable creada y uno que es la variable misma, todos con el nombre que le hemos puesto a esa variable.</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC02.gif" alt="" width="678" height="395"></p>
+<p>El bloque ‘fijar’ asigna un valor inicial a la variable, el bloque ‘cambiar’ suma el valor que pongamos en ‘por’ a la variable, como si usáramos el operador ‘+=’ y el último bloque es el valor actual de la variable.</p>
+<p>También podemos ver que al pulsar la flechita de cualquier bloque se abre un menú donde aparece la variable, y donde podemos crear otra nueva, cambiarle el nombre o eliminar la variable que está seleccionada en ese momento. En la siguiente animación se muestra cómo hacer estas cosas.</p>
+<p><img src="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/img/programacion/mkcode/MC/MC03.gif" alt="" width="678" height="395" style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Los bloques ‘fijar’ y ‘cambiar’ no se crean de nuevo cuando hacemos nuevas variables, sino que podemos elegir la variable que queramos en el desplegable. Pero sí se crea un bloque nuevo para el valor de cada variable. También podemos ver que si borramos una variable que está usada en varios sitios, se borra, con un aviso previo, de todos ellos.</p>
+<p>Pero las variables no se borran del menú ‘Variables’, donde siguen disponibles hasta que las borremos desde algún bloque en la zona de programa.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_eng_reto" id="id148">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_reto.svg)"><h1 class="iDeviceTitle">Reto 9:  Brújula</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta148_112_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC-BY-NC-ND" style="width: 174px;"><img src="nivel_luz_microbit.png" alt="Monedas" title="Monedas" style="margin-bottom: 20px; margin-top: 20px; float: left;" width="401" vspace="20" height="326" />
+<figcaption class="figcaption"></figcaption>
+</figure>
+<p>Se trata de un programa que en función de la posición de la brújula de microbit nos indique en los leds en modo texto la dirección hacia la que apunta. Norte (N), Este (E), Sur (S), Oeste (O). Hay que tener en cuenta los ángulos en microbit.<br /><br /></p>
+<p><strong>Contenidos trabajados:</strong></p>
+<ul>
+<li>Entorno de programación Makecode</li>
+<li>Envío de contenidos a microbit</li>
+<li>Bucles (repetir, por siempre)</li>
+<li>Condicionales</li>
+<li>Creación y uso de variable</li>
+<li>Entradas con brújula</li>
+</ul></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Necesitas el pseudocódigo?" /></div><div class="feedback js-feedback js-hidden"><p><span style="text-decoration: underline;"><strong>Condiciones del ejercicio:</strong></span></p>
+<ul>
+<li>Emplea el bloque establecer ángulo para obtener la dirección de la brújula</li>
+<li>Utiliza condicionales para determinar las diferentes coordenadas teniendo en cuenta entre qué ángulos están.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper candadoIdevice em_iDevice em_iDevice_udl_rep_recomienda" id="id149">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_recomienda.svg)"><h1 class="iDeviceTitle">Si necesitas una ayuda...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta149_116_2" class="block iDevice_content">
+<div class="candado-IDevice"><div class="candado-version js-hidden">1</div><div class="candado-instructions"><h1 style="text-align: center;">Un poco de ayuda</h1>
+<p style="text-align: center;"></p></div><div class="candado-retro"><p><img src="soluci_n_br_jula.png" width="767" height="432" /></p></div><div class="candado-DataGame js-hidden" >%E9%B0%F1%F3%FC%F6%F3%F6%FD%C6%FB%FF%F7%B0%A8%A3%A2%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%DF%DB%D1%C0%DD%D0%DB%C6%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%E6%E0%FD%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%F0%FD%FD%E6%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%D3%E6%E6%F7%FF%E2%E1%B0%A8%B0%AA%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%D7%E0%E0%FD%E0%DF%F7%E1%E1%F3%F5%F7%B0%A8%B0%C6%E0%F3%FC%E1%E2%FD%E1%FB%F1%FBa%FC%BC%BC%BC%B2%E0%F7%F1%E7%F7%E0%F6%F3%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%DD%F9%B0%A8%B0%D3%F1%F7%E2%E6%F3%E0%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%DE%7F%FF%FB%E6%F7%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B2%BA%FF%FF%A8%E1%E1%BB%B0%BE%B0%FF%E1%F5%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%DB%FC%E1%E6%E0%E7%F1%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%D4%F7%F7%F6%F0%F3%F1%F9%B0%A8%B0%C0%F7%E6%E0%FD%F3%FE%FB%FF%F7%FC%E6%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%E8%F1%F3%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B2%FC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%D7%E1%B2%FC%F7%F1%F7%E1%F3%E0%FB%FD%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%D7%C1%FA%FD%E5%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%FE%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D1%FD%FF%E2%E0%FD%F0%F3%E0%B0%EF%EF</div><div class="candado-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_eng_reto" id="id151">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_reto.svg)"><h1 class="iDeviceTitle">Reto 10: Contador de turno</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta151_112_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC-BY-NC-ND" style="width: 174px;"><img src="microbit_contador.png" alt="Monedas" title="Monedas" style="margin-bottom: 20px; margin-top: 20px; float: left;" width="788" vspace="20" height="654" />
+<figcaption class="figcaption"></figcaption>
+</figure>
+<p>En esta actividad tendrás que realizar el control de turno de una carnicería o punto de venta, si pulsamos el botón “A” suma 1, y si pulsamos el botón “B” resta 1. El programa cuando empiece tendrá el contador a 0, y el número del turno no puede ser negativo.</p>
+<p><strong>Contenidos trabajados:</strong></p>
+<ul>
+<li>Entorno de programación Makecode</li>
+<li>Envío de contenidos a microbit</li>
+<li>Bucles</li>
+<li>Creación y uso de variable</li>
+<li>Trabajo inicial con eventos</li>
+<li>Entradas con pulsadores</li>
+</ul></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Necesitas el pseudocódigo?" /></div><div class="feedback js-feedback js-hidden"><p><span style="text-decoration: underline;"><strong>Condiciones del ejercicio:</strong></span></p>
+<ul>
+<li>Debes hacer que el programa establezca el contador a 0 antes de empezar a contar.</li>
+<li>Al presionar un botón debe sumar 1.</li>
+<li>Al pulsar el otro botón debe restar 1.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper candadoIdevice em_iDevice em_iDevice_udl_rep_recomienda" id="id152">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_recomienda.svg)"><h1 class="iDeviceTitle">Si necesitas una ayuda...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta152_116_2" class="block iDevice_content">
+<div class="candado-IDevice"><div class="candado-version js-hidden">1</div><div class="candado-instructions"><h1 style="text-align: center;">Un poco de ayuda</h1>
+<p style="text-align: center;"><img src="bloques_contador.png" width="1496" height="726" /></p></div><div class="candado-retro"><p><img src="soluci_n_contador.png" width="1268" height="822" style="display: block; margin-left: auto; margin-right: auto;" /></p></div><div class="candado-DataGame js-hidden" >%E9%B0%F1%F3%FC%F6%F3%F6%FD%C6%FB%FF%F7%B0%A8%A3%A2%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%DF%DB%D1%C0%DD%D0%DB%C6%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%E6%E0%FD%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%F0%FD%FD%E6%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%D3%E6%E6%F7%FF%E2%E1%B0%A8%B0%AA%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%D7%E0%E0%FD%E0%DF%F7%E1%E1%F3%F5%F7%B0%A8%B0%C6%E0%F3%FC%E1%E2%FD%E1%FB%F1%FBa%FC%BC%BC%BC%B2%E0%F7%F1%E7%F7%E0%F6%F3%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%DD%F9%B0%A8%B0%D3%F1%F7%E2%E6%F3%E0%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%DE%7F%FF%FB%E6%F7%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B2%BA%FF%FF%A8%E1%E1%BB%B0%BE%B0%FF%E1%F5%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%DB%FC%E1%E6%E0%E7%F1%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%D4%F7%F7%F6%F0%F3%F1%F9%B0%A8%B0%C0%F7%E6%E0%FD%F3%FE%FB%FF%F7%FC%E6%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%E8%F1%F3%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B2%FC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%D7%E1%B2%FC%F7%F1%F7%E1%F3%E0%FB%FD%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%D7%C1%FA%FD%E5%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%FE%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D1%FD%FF%E2%E0%FD%F0%F3%E0%B0%EF%EF</div><div class="candado-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_eng_reto" id="id153">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_eng_reto.svg)"><h1 class="iDeviceTitle">Reto 11: Encendido gradual de primera fila de leds de izquierda a derecha</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta153_112_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC-BY-NC-ND" style="width: 174px;"><img src="microbit_encendido_progresivo_de_leds.png" alt="Monedas" title="Monedas" style="margin-bottom: 20px; margin-top: 20px; float: left;" width="500" vspace="20" height="419" />
+<figcaption class="figcaption"></figcaption>
+</figure>
+<p>En esta actividad tendréis que encender y apagar secuencialmente los leds de izquierda a derecha de la primera.</p>
+<p><strong>Contenidos trabajados:</strong></p>
+<ul>
+<li>Entorno de programación Makecode</li>
+<li>Envío de contenidos a microbit</li>
+<li>Bucles (Para y Mientras)</li>
+<li>Creación y uso de variable</li>
+</ul></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Necesitas el pseudocódigo?" /></div><div class="feedback js-feedback js-hidden"><ul>
+<li>Tendrás que crear las variables "X" y "tiempo"</li>
+<li>Al iniciar tendrás que establecer (fijar) las variables "X" y "tiempo".</li>
+<li>Deberás establecer un tiempo.</li>
+<li>Tendrás que darle a X un valor de 0 a 4.</li>
+<li>Graficar X e invertir X estableciendo pausas entre ellos.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper candadoIdevice em_iDevice em_iDevice_udl_rep_recomienda" id="id154">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_recomienda.svg)"><h1 class="iDeviceTitle">Si necesitas una ayuda...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta154_116_2" class="block iDevice_content">
+<div class="candado-IDevice"><div class="candado-version js-hidden">1</div><div class="candado-instructions"><h1 style="text-align: center;">Un poco de ayuda</h1>
+<p style="text-align: center;"><img src="bloques_encendido_gradual_de_primera_fila_de_leds_de_izquierda_a_derecha.png" width="1000" height="529" /></p></div><div class="candado-retro"><p><img src="soluci_n_encendido_gradual_de_primera_fila_de_leds_de_izquierda_a_derecha.png" width="1200" height="543" style="display: block; margin-left: auto; margin-right: auto;" /></p></div><div class="candado-DataGame js-hidden" >%E9%B0%F1%F3%FC%F6%F3%F6%FD%C6%FB%FF%F7%B0%A8%A3%A2%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%DF%DB%D1%C0%DD%D0%DB%C6%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%E6%E0%FD%B0%A8%B0%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%C1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%C0%F7%F0%FD%FD%E6%B0%A8%E6%E0%E7%F7%BE%B0%F1%F3%FC%F6%F3%F6%FD%D3%E6%E6%F7%FF%E2%E1%B0%A8%B0%AA%B0%BE%B0%F1%F3%FC%F6%F3%F6%FD%D7%E0%E0%FD%E0%DF%F7%E1%E1%F3%F5%F7%B0%A8%B0%C6%E0%F3%FC%E1%E2%FD%E1%FB%F1%FBa%FC%BC%BC%BC%B2%E0%F7%F1%E7%F7%E0%F6%F3%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%DD%F9%B0%A8%B0%D3%F1%F7%E2%E6%F3%E0%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%DE%7F%FF%FB%E6%F7%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B2%BA%FF%FF%A8%E1%E1%BB%B0%BE%B0%FF%E1%F5%DB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%DB%FC%E1%E6%E0%E7%F1%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%D4%F7%F7%F6%F0%F3%F1%F9%B0%A8%B0%C0%F7%E6%E0%FD%F3%FE%FB%FF%F7%FC%E6%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%E8%F1%F3%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B2%FC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%D7%E1%B2%FC%F7%F1%F7%E1%F3%E0%FB%FD%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%D7%C1%FA%FD%E5%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%FE%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D1%FD%FF%E2%E0%FD%F0%F3%E0%B0%EF%EF</div><div class="candado-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="bloques_de_entrada.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bucles.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
